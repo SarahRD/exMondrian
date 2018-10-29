@@ -1,0 +1,155 @@
+.container {
+  background-color: white;
+  width: 600px;
+  height: 600px;
+}
+
+.bg-white {
+  background-color: white;
+  border: 5px solid black;
+}
+
+.bg-yellow {
+  background-color: yellow;
+  border: 5px solid black;
+}
+
+.bg-red {
+  background-color: red;
+  border: 5px solid black;
+}
+
+.bg-blue {
+  background-color: blue;
+  border: 5px solid black;
+}
+
+/*line1*/
+
+.line1 {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+}
+
+.line1 div:nth-child(1) {
+  flex: 0.1;
+}
+
+.line1 div:nth-child(2) {
+  flex: 0.5;
+}
+
+.line1 div:nth-child(3) {
+  flex:1;
+}
+
+.line1 div:nth-child(4) {
+  flex:1.6;
+}
+
+/*line2*/
+
+.line2 {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+}
+
+.line2 div:nth-child(1) {
+  flex: 0.1;
+}
+
+.line2 div:nth-child(2) {
+  flex: 0.5;
+}
+
+.line2 div:nth-child(3) {
+  flex:1
+}
+
+.line2 div:nth-child(4) {
+  flex:0.5;
+}
+
+.line2 div:nth-child(5) {
+  flex:1;
+}
+
+/*line3*/
+
+.line3 {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+}
+
+#rect10 {
+  flex: 0.1;
+}
+
+.line3-column {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+.line3-first {
+  display: flex;
+  width: 100%;
+  height: 75px;
+}
+
+.line3-first div:nth-child(1) {
+  flex: 0.5;
+}
+
+.line3-first div:nth-child(2) {
+  flex: 1.5;
+}
+
+.line3-first div:nth-child(3) {
+  flex: 0.9;
+}
+
+.line3-second {
+  display: flex;
+  width: 100%;
+  height: 75px;
+}
+
+.line3-second div:nth-child(1) {
+  flex: 0.5;
+}
+
+.line3-second div:nth-child(2) {
+  flex: 1.5;
+}
+
+.line3-second div:nth-child(3) {
+  flex: 0.9;
+}
+
+/*class for color changing*/
+.bg-lime {
+  background-color: lime;
+  border: 5px solid black;
+}
+
+.bg-purple {
+  background-color: purple;
+  border: 5px solid black;
+}
+
+.bg-pink {
+  background-color: pink;
+  border: 5px solid black;
+}
+
+.bg-orange {
+  background-color: orange;
+  border: 5px solid black;
+}
